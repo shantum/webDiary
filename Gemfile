@@ -29,6 +29,10 @@ gem 'jbuilder', '~> 2.5'
 # Use devise for authentication
 gem 'devise'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap'
+end
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
