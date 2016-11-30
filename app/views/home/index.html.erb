@@ -1,6 +1,16 @@
-<% if user_signed_in? %>
-  <% @links.each do |link| %>
-  <h4>link.url</h4>
-  <h4>link.description</h4>
-  <% end %>
-  <% end %>
+<div class="container" id="home-user-links-container">
+  <h2>Your links so far:</h2>
+
+  <div class="row">
+    <% @user_links.each do |link| %>
+      <div class="col-sm-8" id="home-user-links-each">
+        <p id="home-user-links-each-title">Title: <%= link.link.title %></p>
+        <% if link.link.embed_code %>
+            <%= link.link.embed_code.html_safe %>
+        <% end %>
+        <p>Media Type: <%= link.link.group %></p>
+        <p>Category: <%= link.category %></p>
+      </div>
+    <% end %>
+  </div>
+</div>

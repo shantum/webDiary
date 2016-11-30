@@ -33,6 +33,8 @@ gem 'nokogiri'
 gem 'yt'
 # Use to validate url
 gem 'validate_url'
+# To parse websites
+gem 'opengraph_parser'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'

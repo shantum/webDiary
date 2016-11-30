@@ -1,3 +1,11 @@
+
+# TODO
+
+* Load user links on home page 
+
+* Create links to show or edit particular post
+
+
 # README
 
 This README would normally document whatever steps are necessary to get the
