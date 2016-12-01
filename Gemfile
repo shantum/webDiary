@@ -13,7 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -34,11 +34,10 @@ gem 'yt'
 # Use to validate url
 gem 'validate_url'
 # To parse websites
-gem 'opengraph_parser'
+gem 'metainspector'
+# React on Rails
+gem 'react_on_rails', "~> 6"
 
-source 'https://rails-assets.org' do
-  gem 'rails-assets-bootstrap'
-end
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

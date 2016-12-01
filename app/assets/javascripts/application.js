@@ -12,6 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
+//= require refills/navigation.js
 //= require turbolinks
-//= require_tree .
